@@ -4,18 +4,22 @@ body
     padding: 1em;
     font-size: 1em;
     min-width: 480px;
+    max-width: 480px;
     height: 768px;
 }
 
-body div p
+body div
 {
     text-align: center;
+    vertical-align: middle;
 }
 
 div
 {
     outline: 1px solid grey;
 }
+
+/* mobile mode  */
 
 div.a
 {
@@ -75,12 +79,14 @@ div.i
     height: 10px;
 }
 
+/* desktop mode  */
 @media only screen and (min-width: 960px) 
 {
     body 
     {
       background-color: pink;
       max-width: 960px;
+      min-width: 960px;
     }
 
     div.a
