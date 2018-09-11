@@ -12,6 +12,7 @@ body div
 {
     text-align: center;
     vertical-align: middle;
+    line-height: 50px;
 }
 
 div
@@ -25,30 +26,35 @@ div.a
 {
     width: 480px;
     height: 75px;
+    line-height: 75px;
 }
 
 div.b
 {
     width: 480px;
     height: 150px;
+    line-height: 150px;
 }
 
 div.c
 {
     width: 480px;
     height: 125px;
+    line-height: 125px;
 }
 
 div.d
 {
     width: 480px;
     height: 125px;
+    line-height: 125px;
 }
 
 div.e
 {
     width: 240px;
     height: 250px;
+    line-height: 250px;
     float: left;
 }
 
@@ -56,6 +62,7 @@ div.f
 {
     width: 240px;
     height: 250px;
+    line-height: 250px;
     float: left;
 }
 
@@ -63,6 +70,7 @@ div.g
 {
     width: 240px;
     height: 250px;
+    line-height: 250px;
     float: left;
 }
 
@@ -70,6 +78,7 @@ div.h
 {
     width: 240px;
     height: 250px;
+    line-height: 250px;
     float: left;
 }
 
@@ -77,14 +86,16 @@ div.i
 {
     width: 480px;
     height: 10px;
+    line-height: 10px;
 }
 
 /* desktop mode  */
+
 @media only screen and (min-width: 960px) 
 {
     body 
     {
-      background-color: pink;
+      /* background-color: pink; */
       max-width: 960px;
       min-width: 960px;
     }
@@ -93,12 +104,14 @@ div.i
     {
         width: 960px;
         height: 100px;
+        line-height: 100px;
     }
 
     div.b
     {
         width: 200px;
         height: 600px;
+        line-height: 600px;
         float: left;
     }
 
@@ -106,6 +119,7 @@ div.i
     {
         width: 380px;
         height: 200px;
+        line-height: 200px;
         float: left;
     }
 
@@ -113,6 +127,7 @@ div.i
     {
         width: 380px;
         height: 200px;
+        line-height: 200px;
         float: left;
     }
 
@@ -120,6 +135,7 @@ div.i
     {
         width: 190px;
         height: 250px;
+        line-height: 250px;
         float: left;
     }
 
@@ -127,6 +143,7 @@ div.i
     {
         width: 190px;
         height: 250px;
+        line-height: 250px;
         float: left;
     }
 
@@ -134,6 +151,7 @@ div.i
     {
         width: 190px;
         height: 250px;
+        line-height: 250px;
         float: left;
     }
 
@@ -141,6 +159,7 @@ div.i
     {
         width: 190px;
         height: 250px;
+        line-height: 250px;
         float: left;
     }
 
@@ -148,6 +167,7 @@ div.i
     {
         width: 760px;
         height: 150px;
+        line-height: 150px;
         float: left;
     }
 }
