@@ -4,9 +4,9 @@ body
 {
     padding: 1em;
     font-size: 1em;
-    min-width: 480px;
-    max-width: 480px;
-    height: 768px;
+    /* min-width: 30em; */
+    /* max-width: 30em; */
+    /* height: 48em; */
     margin: 0 auto;
 }
 
